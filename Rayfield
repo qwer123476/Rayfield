@@ -317,7 +317,7 @@ if debugX then
 	warn('Moving on to continue initialisation')
 end
 
-Local RayfieldLibrary = {
+local RayfieldLibrary = {
 	Flags = {},
 	Theme = {
 		Default = {
