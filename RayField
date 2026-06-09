@@ -338,17 +338,23 @@ local RayfieldLibrary = {
 			ToggleEnabled = Color3.fromRGB(0, 130, 130),
 			ToggleDisabled = Color3.fromRGB(70, 90, 90),
 			ToggleEnabledStroke = Color3.fromRGB(0, 160, 160),
-			ToggleDisabledStroke = Color3.fromRGB(85, 105, 105),
-			ToggleEnabledOuterStroke = Color3.fromRGB(50, 100, 100),
-			ToggleDisabledOuterStroke = Color3.fromRGB(45, 65, 65),
+			ToggleDisabledStroke = Default = {
+    TextColor = Color3.fromRGB(240,240,240),
 
-			DropdownSelected = Color3.fromRGB(30, 60, 60),
-			DropdownUnselected = Color3.fromRGB(25, 40, 40),
+    Background = Color3.fromRGB(0,35,120), -- 메인 파랑
+    Topbar = Color3.fromRGB(0,25,90),
+    Shadow = Color3.fromRGB(0,0,0),
 
-			InputBackground = Color3.fromRGB(30, 50, 50),
-			InputStroke = Color3.fromRGB(50, 70, 70),
-			PlaceholderColor = Color3.fromRGB(140, 160, 160)
-		},
+    ElementBackground = Color3.fromRGB(0,45,140),
+    ElementBackgroundHover = Color3.fromRGB(0,60,180),
+
+    ElementStroke = Color3.fromRGB(255,0,0), 
+    SecondaryElementStroke = Color3.fromRGB(255,0,0),
+
+    TabStroke = Color3.fromRGB(255,0,0),
+    ToggleEnabledOuterStroke = Color3.fromRGB(255,0,0),
+    ToggleDisabledOuterStroke = Color3.fromRGB(255,0,0),
+},
 
 		AmberGlow = {
 			TextColor = Color3.fromRGB(255, 245, 230),
